@@ -1,0 +1,741 @@
+
+<!-- saved from url=(0064)https://community.topcoder.com/stat?c=problem_statement&pm=12697 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+   <title>TopCoder Statistics - Problem Statement</title>
+   
+
+
+<!--<base href="//community.topcoder.com/">--><base href=".">
+
+   
+
+
+
+
+
+<script async="" src="./TrafficCongestionDivTwo_Q_files/fbevents.js"></script><script type="text/javascript" async="" src="./TrafficCongestionDivTwo_Q_files/analytics.js"></script><script type="text/javascript" async="" src="./TrafficCongestionDivTwo_Q_files/aa23cd43c455ef33b6a0df3de81a79af9ea30f75.2.js"></script><script type="text/javascript" async="" src="./TrafficCongestionDivTwo_Q_files/i.js"></script><script type="text/javascript" async="" src="./TrafficCongestionDivTwo_Q_files/analytics.js"></script><script type="text/javascript" async="" src="./TrafficCongestionDivTwo_Q_files/gtm.js"></script><script type="text/javascript" async="" src="./TrafficCongestionDivTwo_Q_files/heap-4240734066.js"></script><script type="text/javascript" async="" src="./TrafficCongestionDivTwo_Q_files/analytics.min.js"></script><script type="text/javascript" src="./TrafficCongestionDivTwo_Q_files/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="./TrafficCongestionDivTwo_Q_files/jquery-migrate-1.2.1.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+<script type="text/javascript" src="./TrafficCongestionDivTwo_Q_files/jquery.jfeed.pack.js"></script>
+<script type="text/javascript" src="./TrafficCongestionDivTwo_Q_files/newTCScript.js"></script><link type="image/x-icon" rel="shortcut icon" href="https://community.topcoder.com/i/favicon.ico">
+
+
+<script type="text/javascript">var _kmq = _kmq || [];
+  var _kmk = _kmk || 'aa23cd43c455ef33b6a0df3de81a79af9ea30f75';
+  function _kms(u){
+    setTimeout(function(){
+      var d = document, f = d.getElementsByTagName('script')[0],
+      s = d.createElement('script');
+      s.type = 'text/javascript'; s.async = true; s.src = u;
+      f.parentNode.insertBefore(s, f);
+    }, 1);
+  }
+  _kms('//i.kissmetrics.com/i.js');
+  _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="./TrafficCongestionDivTwo_Q_files/css" rel="stylesheet" type="text/css">
+    
+    <link type="text/css" rel="stylesheet" href="./TrafficCongestionDivTwo_Q_files/coders.css">
+    <link type="text/css" rel="stylesheet" href="./TrafficCongestionDivTwo_Q_files/jobsRemix.css">
+    <link type="text/css" rel="stylesheet" href="./TrafficCongestionDivTwo_Q_files/myHome.css">
+    
+<link type="text/css" rel="stylesheet" href="./TrafficCongestionDivTwo_Q_files/newStyles.css">
+<!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+
+
+
+<style type="text/css">
+a:link {color: white}
+a:visited {color: white}
+</style>
+
+ </head>
+ <body text="#FFFFFF" style="">
+   
+
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function(){
+        $("a.new-btn-login").attr('href', $("a.new-btn-login").attr('href') + "?next=" + window.location.href);
+    })
+</script>
+
+
+    
+
+        <!-- new theme -->
+
+        <div class="header-wrapper">
+            <!-- Main header element-->
+            <header class="top-header new-topcoder-header">
+                <!-- Header content visible on small screens-->
+                <div class="show-small mobile-heading"><span class="tc-text-logo">[ topcoder ]</span>
+                    <button type="button" class="btn-open-menu">Menu</button>
+                    <button type="button" class="btn-close-menu"></button>
+
+                    
+
+                     <!-- for logged in user-->
+
+                        <a href="javascript:;" class="user-link">
+                            <img src="./TrafficCongestionDivTwo_Q_files/nophoto_submit.gif" alt="User Avatar" class="user-avatar">
+                        </a>
+                    
+
+
+
+                </div>
+                <!-- main menu -->
+                <ul class="main-menu">
+                    <!-- search container-->
+                    <li class="menu-item search-wrapper">
+                        <div class="menu-item-header search-header show-large">
+                            <button type="button" class="btn-expand-search search-icon"></button>
+                        </div>
+                        <div class="submenu">
+                            <form action="https://www.topcoder.com/search/members/" method="get">
+                                <input type="text" id="searchBox" style="font-size: 12px" placeholder="FIND MEMBERS BY USERNAME OR SKILL" name="q">
+                                <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;" tabindex="-1">
+                             </form>
+                            <!-- Suggestion list container-->
+                            <ul class="suggestion-list"></ul>
+                        </div>
+                    </li>
+
+
+
+                    
+
+                        <!-- for logged in user-->
+
+                        <li class="menu-item link-group user-menu">
+                            <div class="authenticated-options">
+                                <div class="menu-item-header">
+                                    <img class="user-avatar" alt="User Avatar" src="./TrafficCongestionDivTwo_Q_files/nophoto_submit.gif">
+                                    <span class="username">voanhq</span>
+                                </div>
+                                <a class="btn-link btn-edit-profile show-small" href="https://www.topcoder.com/settings/profile/">EDIT</a>
+                                <ul class="submenu">
+                                    <li class="submenu-item"><a class="menu-link menu-link-dashboard" href="https://www.topcoder.com/my-dashboard/">DASHBOARD</a></li>
+                                    <li class="submenu-item"><a class="menu-link menu-link-profile" href="https://www.topcoder.com/members/voanhq/">MY PROFILE</a></li>
+                                    <li class="submenu-item"><a class="menu-link menu-link-payments" target="_blank" href="https://community.topcoder.com/PactsMemberServlet?module=PaymentHistory&amp;full_list=false">PAYMENTS</a></li>
+                                    <li class="submenu-item"><a class="menu-link menu-link-settings" href="https://www.topcoder.com/settings/profile/" target="_blank">SETTINGS</a></li>
+                                    <li class="submenu-item"><a class="menu-link menu-link-logout" href="https://www.topcoder.com/logout">LOG OUT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                    
+
+                    <li class="menu-item link-group">
+                        <div class="menu-item-header">COMPETE</div>
+                        <ul class="submenu">
+                            <li class="submenu-item"><a href="https://www.topcoder.com/challenges/design/active" class="menu-link menu-link-design">DESIGN CHALLENGES</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://www.topcoder.com/challenges/develop/active" class="menu-link menu-link-dev">DEVELOPMENT CHALLENGES</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://www.topcoder.com/challenges/data/active" class="menu-link menu-link-data">DATA SCIENCE CHALLENGES</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://arena.topcoder.com/" class="menu-link menu-link-arena">COMPETITIVE PROGRAMMING</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- 'LEARN' link group-->
+                    <li class="menu-item link-group">
+                        <div class="menu-item-header">LEARN</div>
+                        <ul class="submenu">
+                            <li class="submenu-item"><a href="https://www.topcoder.com/member-onboarding/" class="menu-link menu-link-learn-started">GET STARTED</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://www.topcoder.com/community/design/" class="menu-link menu-link-learn-design">DESIGN</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://www.topcoder.com/community/development/" class="menu-link menu-link-learn-dev">DEVELOPMENT</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://www.topcoder.com/community/data-science/" class="menu-link menu-link-learn-data">DATA SCIENCE</a>
+                            </li>
+                            <li class="submenu-item"><a href="http://www.topcoder.com/community/competitive-programming/" class="menu-link menu-link-learn-competition">COMPETITIVE PROGRAMMING</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <!-- 'COMMUNITY' link group-->
+                    <li class="menu-item link-group">
+                        <div class="menu-item-header">COMMUNITY</div>
+                        <ul class="submenu">
+                            <li class="submenu-item"><a href="https://www.topcoder.com/community/members/" class="menu-link menu-link-community-members">OVERVIEW</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://www.topcoder.com/tco" class="menu-link menu-link-community-tco17">TCO</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://www.topcoder.com/community/member-programs/" class="menu-link menu-link-community-programs">PROGRAMS</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://apps.topcoder.com/forums/" class="menu-link menu-link-community-forums" target="_blank">FORUMS</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://www.topcoder.com/community/statistics/" class="menu-link menu-link-community-stats">STATISTICS</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://www.topcoder.com/community/events/" class="menu-link menu-link-community-events">EVENTS</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://www.topcoder.com/blog/" class="menu-link menu-link-community-blog">BLOG</a>
+                            </li>
+                            <li class="submenu-item"><a href="https://www.topcoder.com/thrive/" class="menu-link menu-link-community-blog">THRIVE</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </header>
+        </div>
+    
+    
+
+
+
+
+   <table width="100%" border="0" cellpadding="0" cellspacing="0" class="mainContent" style="visibility: visible;">
+     <tbody><tr>
+       <td width="180" valign="top" class="alignTop" style="display: none;">
+         
+
+
+
+
+
+
+
+    
+        
+            
+            
+        
+
+
+
+
+
+
+<div style="width: 185px; display: block;" class="leftNavWrapper">
+    
+<input type="hidden" id="nodeName" value="algo_problem_archive">
+<script language="JavaScript" type="text/javascript" src="./TrafficCongestionDivTwo_Q_files/arena.js"></script>
+
+    <section class="get-time" style="margin-bottom:15px">
+        
+        <span class="date"></span>
+        <a href="javascript:tcTime();">Get Time</a>
+    </section>
+    <!-- End .get-time -->
+
+    <section class="navigation">
+    <ul>
+        <li><a id="copilot_posting_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=Copilot%20Posting">Copilot Posting</a></li>
+        <li><a href="http://www.topcoder.com/active-challenges/design/">Design</a></li>
+        <li>
+            <a href="javascript:;">Develop<i></i></a>
+            <ul class="hide">
+                <li><a id="conceptualization_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=Conceptualization">Conceptualization</a></li>
+                <li><a id="specification_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=Specification">Specification</a></li>
+                <li><a id="architecture_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=Architecture">Architecture</a></li>
+                <li><a id="ui_prototype_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=UI%20Prototype%20Competition">UI Prototype</a></li>
+                <li><a id="assembly_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=Assembly%20Competition">Assembly</a></li>
+                <li><a id="first2finish_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=First2Finish">First2Finish</a></li>
+                <li><a id="code_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=Code">Code</a></li>
+                <li><a id="des_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=Design">Component Design</a></li>
+                <li><a id="dev_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=Development">Component Development</a></li>
+                <li><a id="test_suites_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=Test%20Suites">Test Suites</a></li>
+                <li><a id="content_creation_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=Content%20Creation">Content Creation</a></li>
+                <li><a id="test_scenarios_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=Test%20Scenarios">Test Scenarios</a></li>
+                <li><a id="bug_hunt_compete" href="http://www.topcoder.com/challenges/develop/active/?challengeTypes=Bug%20Hunt">Bug Hunt</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:;">Review Opportunities<i></i></a>
+            <ul class="hide">
+                <li>
+                    <dl>
+                        <dt>Conceptualization</dt>
+                        <dd><a id="conceptualization_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=23">Review Opportunities</a></dd>
+                        <dd><a id="conceptualization_review_border" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=23">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Specification</dt>
+                        <dd><a id="specification_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=6">Review Opportunities</a></dd>
+                        <dd><a id="specification_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=6">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Architecture</dt>
+                        <dd><a id="architecture_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=7">Review Opportunities</a></dd>
+                        <dd><a id="architecture_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=7">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Component Design</dt>
+                        <dd><a id="des_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=1">Review Opportunities</a></dd>
+                        <dd><a id="des_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=1">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Component Development</dt>
+                        <dd><a id="dev_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=2">Review Opportunities</a></dd>
+                        <dd><a id="dev_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=2">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Assembly</dt>
+                        <dd><a id="assembly_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=14">Review Opportunities</a></dd>
+                        <dd><a id="assembly_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=14">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>First2Finish</dt>
+                        <dd><a id="first2finish_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=38">Review Opportunities</a></dd>
+                        <dd><a id="first2finish_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=38">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Code</dt>
+                        <dd><a id="code_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=39">Review Opportunities</a></dd>
+                        <dd><a id="code_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=39">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Test Suites</dt>
+                        <dd><a id="test_suites_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=13">Review Opportunities</a></dd>
+                        <dd><a id="test_suites_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=13">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Report</dt>
+                        <dd><a id="reporting_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=36">Review Opportunities</a></dd>
+                        <dd><a id="reporting_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=36">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>UI prototype</dt>
+                        <dd><a id="ui_prototype_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=19">Review Opportunities</a></dd>
+                        <dd><a id="ui_prototype_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=19">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>RIA Build</dt>
+                        <dd><a id="ria_build_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=24">Review Opportunities</a></dd>
+                        <dd><a id="ria_build_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=24">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Content Creation</dt>
+                        <dd><a id="content_creation_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=35">Review Opportunities</a></dd>
+                        <dd><a id="content_creation_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=35">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Test Scenarios</dt>
+                        <dd><a id="test_scenarios_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=26">Review Opportunities</a></dd>
+                        <dd><a id="test_scenarios_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=26">Meet the review board</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="last-item">
+                        <dt>Bug Hunt</dt>
+                        <dd><a id="bug_hunt_review" href="http://www.topcoder.com/tc?module=ViewReviewAuctions&amp;pt=9">Review Opportunities</a></dd>
+                        <dd><a id="bug_hunt_review_board" href="http://www.topcoder.com/tc?module=ReviewBoard&amp;pt=9">Meet the review board</a></dd>
+                    </dl>
+                </li>
+
+            </ul>
+        </li>
+        <li class="expanded">
+            <a href="javascript:;">Algorithm (SRM)<i></i></a>
+            <ul class="hide" style="display: block;">
+                <li><a href="http://www.topcoder.com/active-challenges/data/">Single Round Matches (SRM)</a></li>
+                <li><a id="algo_match_archive" href="http://www.topcoder.com/tc?module=MatchList">Match Archive</a></li>
+                <li><a id="algo_match_overviews" href="http://www.topcoder.com/stat?c=round_overview">Match Overviews</a></li>
+                <li><a id="algo_match_winners" href="http://www.topcoder.com/tc?module=SrmDivisionWins">Match Winners</a></li>
+                <li><a id="algo_match_results" href="http://www.topcoder.com/stat?c=last_match">Match Results</a></li>
+                <li><a href="http://apps.topcoder.com/wiki/display/tc/Algorithm+Problem+Set+Analysis">Match Editorials</a></li>
+                <li><a id="algo_problem_archive" href="http://www.topcoder.com/tc?module=ProblemArchive" style="color: rgb(255, 138, 0); font-weight: bold;">Problem Archive</a></li>
+                <li><a id="algo_color_changes" href="http://www.topcoder.com/tc?module=ColorChange&amp;ratid=1">Recent Color Changes</a></li>
+                <li><a href="http://apps.topcoder.com/wiki/display/tc/Algorithm+Data+Feeds">Data Feeds</a></li>
+                <li><a href="javascript:arena();">Launch Arena</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:;">Marathon Match<i></i></a>
+            <ul class="hide">
+                <li><a id="long_compete" href="http://www.topcoder.com/challenges/data/active/">Challenges</a></li>
+                <li><a id="long_match_archive" href="http://www.topcoder.com/challenges/data/past/">Match Archive</a></li>
+                <li><a id="long_match_overview" href="http://www.topcoder.com/longcontest/stats/?module=ViewOverview">Match Overview</a></li>
+                <li><a id="long_match_winners" href="http://www.topcoder.com/longcontest/stats/?module=MatchWinners">Match Winners</a></li>
+                <li><a id="long_editorials" href="http://www.topcoder.com/longcontest/?module=Static&amp;d1=match_editorials&amp;d2=archive">Match Editorials</a></li>
+                <li><a id="long_data_feeds" href="http://www.topcoder.com/longcontest/?module=Static&amp;d1=support&amp;d2=dataFeed">Data Feeds</a></li>
+                <li><a id="long_practice" href="http://www.topcoder.com/longcontest/?module=ViewPractice">Practice</a></li>
+                <li><a id="long_queue" href="http://www.topcoder.com/longcontest/?module=ViewQueue">Queue Status</a></li>
+            </ul>
+        </li>
+        
+        <li><a href="http://software.topcoder.com/review">Submit &amp; Review</a></li>
+        <li>
+            <a href="javascript:;">topcoder Networks<i></i></a>
+            <ul class="hide">
+                <li><a href="http://community.topcoder.com/ntl/">NASA Tournament Lab</a></li>
+            </ul>
+        </li>
+        <li><a href="http://www.topcoder.com/community/events/">Events</a></li>
+        <li>
+            <a href="javascript:;">Statistics<i></i></a>
+            <ul class="hide">
+                <li>
+                    <dl>
+                        <dt>Top Ranked</dt>
+                        <dd><a id="top_rated_algo" href="http://www.topcoder.com/tc?module=AlgoRank">Algorithm</a></dd>
+                        <dd><a id="top_rated_hs" href="http://www.topcoder.com/tc?module=HSRank">High School</a></dd>
+                        <dd><a id="top_rated_long" href="http://www.topcoder.com/longcontest/stats/?module=CoderRank">Marathon Match</a></dd>
+                        <dd><a id="top_rated_conceptors" href="http://www.topcoder.com/stat?c=top_conceptors">Conceptualization</a></dd>
+                        <dd><a id="top_rated_specificators" href="http://www.topcoder.com/stat?c=top_specificators">Specification</a></dd>
+                        <dd><a id="top_rated_architects" href="http://www.topcoder.com/stat?c=top_architects">Architecture</a></dd>
+                        <dd><a id="top_rated_des" href="http://www.topcoder.com/stat?c=top_designers">Design</a></dd>
+                        <dd><a id="top_rated_dev" href="http://www.topcoder.com/stat?c=top_developers">Development</a></dd>
+                        <dd><a id="top_rated_assemblers" href="http://www.topcoder.com/stat?c=top_assemblers">Assembly</a></dd>
+                        <dd><a id="top_rated_testers" href="http://www.topcoder.com/stat?c=top_testers">Test Suites</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>Record Book</dt>
+                        <dd><a id="algo_recordbook" href="http://www.topcoder.com/tc?module=Static&amp;d1=statistics&amp;d2=recordbook_home">Algorithm</a></dd>
+                        <dd><a id="comp_recordbook" href="http://www.topcoder.com/tc?module=Static&amp;d1=compstats&amp;d2=comp_recordbook_home">Component</a></dd>
+                        <dd><a id="long_recordbook" href="http://www.topcoder.com/longcontest/?module=Static&amp;d1=stats&amp;d2=recordbook_home">Marathon Match</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="last-item">
+                        <dt>Coder of the Month</dt>
+                        <dd><a id="algo_com" href="http://www.topcoder.com/tc?module=COMHistory&amp;achtid=5">Algorithm</a></dd>
+                        <dd><a id="des_com" href="http://www.topcoder.com/tc?module=COMHistory&amp;achtid=6">Design</a></dd>
+                        <dd><a id="dev_com" href="http://www.topcoder.com/tc?module=COMHistory&amp;achtid=7">Development</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:;">Tutorials<i></i></a>
+            <ul class="hide">
+                <li><a id="algo_tutorials" href="http://help.topcoder.com/data-science/competing-in-algorithm-challenges/algorithm-tutorials/">Algorithm Tutorials</a></li>
+                <li><a id="comp_tutorials" href="http://help.topcoder.com/development/competing-in-development-challenges/development-tutorials/">Software Tutorials</a></li>
+                <li><a id="mm_tutorials" href="http://help.topcoder.com/data-science/competing-in-algorithm-challenges/marathon-match-tutorials/">Marathon Tutorials</a></li>
+            </ul>
+        </li>
+        <li><a href="https://apps.topcoder.com/forums/" id="forums">Forums</a></li>
+        <li><a href="https://www.topcoder.com/tc?module=MyHome" id="my_topcoder">My topcoder</a></li>
+    </ul>
+</section>
+<!-- End .navigation -->
+<section class="member-search">
+
+</section>
+
+<!-- End .member-search -->
+
+</div>
+
+    
+    
+
+
+
+       </td>
+       <td width="10" valign="top" class="alignTop"><img src="./TrafficCongestionDivTwo_Q_files/clear.gif" width="10" height="1" border="0"></td>
+       <td class="bodyText" width="100%" valign="top"><img src="./TrafficCongestionDivTwo_Q_files/clear.gif" width="240" height="1" vspace="5" border="0"><br>
+
+         <!-- BEGIN BODY -->
+         <table border="0" cellspacing="0" cellpadding="0" width="100%" style="visibility: visible;">
+           <tbody><tr>
+             <td width="11" height="26" align="left" valign="bottom" class="alignBottom"><img width="11" height="26" border="0" src="./TrafficCongestionDivTwo_Q_files/steelblue_top_left1.gif"></td>
+             <td valign="bottom" class="alignBottom" width="180" align="left"><img width="180" height="26" border="0" src="./TrafficCongestionDivTwo_Q_files/header_statistics.gif"></td>
+             <td class="bodyTextBold" valign="middle" width="100%">
+               &nbsp;<span class="bodySubhead">&nbsp;&nbsp;Problem Statement&nbsp;&nbsp;</span>
+             </td>
+             <td valign="top" class="alignTop" width="10" align="right"><img src="./TrafficCongestionDivTwo_Q_files/clear.gif" alt="" width="10" height="26" border="0"></td>
+           </tr>
+         </tbody></table>
+
+
+         <table border="0" cellspacing="0" cellpadding="10" bgcolor="#001B35" width="100%" class="paddingTable" style="visibility: visible;">
+           <tbody><tr>
+             <td valign="top" class="alignTop" width="100%"><img src="./TrafficCongestionDivTwo_Q_files/clear.gif" alt="" width="240" height="1" border="0"><br>
+               <table border="0" cellspacing="0" cellpadding="0" width="100%" style="visibility: visible;">
+                 <tbody><tr>
+                   <td colspan="7"><img src="./TrafficCongestionDivTwo_Q_files/clear.gif" alt="" width="1" height="1" border="0"></td>
+                 </tr>
+                 <tr>
+                   <td colspan="7"><img src="./TrafficCongestionDivTwo_Q_files/clear.gif" alt="" width="1" height="5" border="0"></td>
+                 </tr>
+                 <tr>
+                   
+                     <td background="./TrafficCongestionDivTwo_Q_files/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">&nbsp;Problem Statement for TrafficCongestionDivTwo</td>
+                   
+                 </tr>
+                 <tr>
+                   <td colspan="7"><img src="./TrafficCongestionDivTwo_Q_files/clear.gif" alt="" width="1" height="1" border="0"></td>
+                 </tr>
+                 <tr>
+                   <td colspan="7"><img src="./TrafficCongestionDivTwo_Q_files/clear.gif" alt="" width="1" height="1" border="0"></td>
+                 </tr>
+                 <tr>
+                   <td class="problemText" valign="middle" align="left">
+                      
+              		<table style="visibility: visible;"><tbody><tr><td colspan="2" class="statText"><h3>Problem Statement</h3></td></tr><tr><td class="statText">&nbsp;&nbsp;&nbsp;&nbsp;</td><td class="statText"><p>There are some cities and some roads connecting them together.
+The road network has the topology of a perfect binary tree (see below for a picture), in which the cities are nodes and the roads are edges.</p>
+<br><br>
+<p>You are given the int <b>treeHeight</b> giving the height of the tree.
+(The height of a perfect binary tree is the number of edges on the path between the root node and any leaf node.)
+Thus, there are 2^(<b>treeHeight</b>+1)-1 cities and 2^(<b>treeHeight</b>+1)-2 roads in total.</p>
+<br><br>
+<p>The picture below shows how the road network looks like when <b>treeHeight</b> = 2.</p>
+<br><br>
+<p><img src="./TrafficCongestionDivTwo_Q_files/TrafficCongestion1.png"></p>
+<br><br>
+<p>We want to send some cars into the road network.
+Each car will be traveling from its starting city to its destination city without visiting the same city twice.
+(Note that the route of each car is uniquely determined by its starting and its destination city.)
+It is possible for the starting city to be equal to the destination city, in that case the car only visits that single city.</p>
+<br><br>
+<p>Our goal is to send out the cars in such a way that each city will be visited by <i>exactly</i> one car. Compute and return the smallest number of cars we need in order to do so.</p>
+</td></tr><tr><td colspan="2" class="statText">&nbsp;</td></tr><tr><td colspan="2" class="statText"><h3>Definition</h3></td></tr><tr><td class="statText">&nbsp;&nbsp;&nbsp;&nbsp;</td><td class="statText"><table style="visibility: visible;"><tbody><tr><td class="statText">Class:</td><td class="statText">TrafficCongestionDivTwo</td></tr><tr><td class="statText">Method:</td><td class="statText">theMinCars</td></tr><tr><td class="statText">Parameters:</td><td class="statText">int</td></tr><tr><td class="statText">Returns:</td><td class="statText">long</td></tr><tr><td class="statText">Method signature:</td><td class="statText">long theMinCars(int treeHeight)</td></tr><tr><td colspan="2" class="statText">(be sure your method is public)</td></tr></tbody></table></td></tr><tr><td class="statText">&nbsp;&nbsp;&nbsp;&nbsp;</td></tr><tr><td class="statText"></td></tr><tr><td colspan="2" class="statText">&nbsp;</td></tr><tr><td colspan="2" class="statText"><h3>Notes</h3></td></tr><tr><td align="center" valign="top" class="statText">-</td><td class="statText">The answer will always fit into a 64-bit signed integer data type.</td></tr><tr><td colspan="2" class="statText">&nbsp;</td></tr><tr><td colspan="2" class="statText"><h3>Constraints</h3></td></tr><tr><td align="center" valign="top" class="statText">-</td><td class="statText"><b>treeHeight</b> will be between 0 and 60, inclusive.</td></tr><tr><td colspan="2" class="statText">&nbsp;</td></tr><tr><td colspan="2" class="statText"><h3>Examples</h3></td></tr><tr><td align="center" nowrap="true" class="statText">0)</td><td class="statText"></td></tr><tr><td class="statText">&nbsp;&nbsp;&nbsp;&nbsp;</td><td class="statText"><table style="visibility: visible;"><tbody><tr><td class="statText"><table style="visibility: visible;"><tbody><tr><td class="statText"><pre>1</pre></td></tr></tbody></table></td></tr><tr><td class="statText"><pre>Returns: 1</pre></td></tr><tr><td class="statText"><table style="visibility: visible;"><tbody><tr><td colspan="2" class="statText"><p>In this case, one car can visit all the cities.</p>
+<br><br>
+<p><img src="./TrafficCongestionDivTwo_Q_files/TrafficCongestion2.png"></p>
+
+</td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td align="center" nowrap="true" class="statText">1)</td><td class="statText"></td></tr><tr><td class="statText">&nbsp;&nbsp;&nbsp;&nbsp;</td><td class="statText"><table style="visibility: visible;"><tbody><tr><td class="statText"><table style="visibility: visible;"><tbody><tr><td class="statText"><pre>2</pre></td></tr></tbody></table></td></tr><tr><td class="statText"><pre>Returns: 3</pre></td></tr><tr><td class="statText"><table style="visibility: visible;"><tbody><tr><td colspan="2" class="statText"><p>Here is one way to visit all cities exactly once by three cars:</p>
+<br><br>
+<p><img src="./TrafficCongestionDivTwo_Q_files/TrafficCongestion3.png"></p>
+</td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td align="center" nowrap="true" class="statText">2)</td><td class="statText"></td></tr><tr><td class="statText">&nbsp;&nbsp;&nbsp;&nbsp;</td><td class="statText"><table style="visibility: visible;"><tbody><tr><td class="statText"><table style="visibility: visible;"><tbody><tr><td class="statText"><pre>3</pre></td></tr></tbody></table></td></tr><tr><td class="statText"><pre>Returns: 5</pre></td></tr><tr><td class="statText"><table style="visibility: visible;"><tbody><tr><td colspan="2" class="statText"></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td align="center" nowrap="true" class="statText">3)</td><td class="statText"></td></tr><tr><td class="statText">&nbsp;&nbsp;&nbsp;&nbsp;</td><td class="statText"><table style="visibility: visible;"><tbody><tr><td class="statText"><table style="visibility: visible;"><tbody><tr><td class="statText"><pre>10</pre></td></tr></tbody></table></td></tr><tr><td class="statText"><pre>Returns: 683</pre></td></tr><tr><td class="statText"><table style="visibility: visible;"><tbody><tr><td colspan="2" class="statText"></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td align="center" nowrap="true" class="statText">4)</td><td class="statText"></td></tr><tr><td class="statText">&nbsp;&nbsp;&nbsp;&nbsp;</td><td class="statText"><table style="visibility: visible;"><tbody><tr><td class="statText"><table style="visibility: visible;"><tbody><tr><td class="statText"><pre>60</pre></td></tr></tbody></table></td></tr><tr><td class="statText"><pre>Returns: 768614336404564651</pre></td></tr><tr><td class="statText"><table style="visibility: visible;"><tbody><tr><td colspan="2" class="statText"></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><hr><p>This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.  </p>
+                      
+                   </td>
+                 </tr>
+                 <tr>
+                   <td colspan="7"><img src="./TrafficCongestionDivTwo_Q_files/clear.gif" alt="" width="1" height="3" border="0"></td>
+                 </tr>
+                 <tr>
+                   <td background="./TrafficCongestionDivTwo_Q_files/steel_blue_bg.gif" class="statText" colspan="7"><img src="./TrafficCongestionDivTwo_Q_files/clear.gif" alt="" width="1" height="5" border="0"></td>
+                 </tr>
+                 <tr>
+                   <td class="statText" colspan="7"><img src="./TrafficCongestionDivTwo_Q_files/clear.gif" alt="" width="1" height="16" border="0"></td>
+                 </tr>
+                 <tr>
+                   <td class="statText" colspan="7">
+                      This problem was used for:
+   
+   	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://community.topcoder.com/tc?module=ProblemDetail&amp;rd=15697&amp;pm=12697">Single Round Match 585 Round 1 - Division II, Level Two</a>
+   
+                   
+                   </td>
+                 </tr>
+
+
+               </tbody></table>
+             </td>
+           </tr>
+           <tr>
+             <td width="100%"><img src="./TrafficCongestionDivTwo_Q_files/clear.gif" alt="" width="1" height="10" border="0"></td>
+           </tr>
+         </tbody></table>
+
+         <p><br></p>
+
+         <!-- END BODY -->
+
+       </td>
+       
+       
+       
+    <!-- Gutter -->
+    
+    <!-- Gutter Ends -->
+     </tr>
+   </tbody></table>
+   
+   
+   
+
+
+
+
+
+
+
+    
+        
+            
+                
+                    
+                    
+
+
+                        
+                            
+                                
+                            
+                        
+
+                        
+                    
+                
+                
+                    
+                         
+                              
+                                 
+                                     
+
+                                 
+                              
+                             
+                         
+
+
+                
+                
+                    
+                    
+                        
+                    
+                    
+                
+                
+            
+            
+                
+                    
+                        
+                        
+                            
+                            
+                            
+                            
+                        
+                        
+                    
+                    
+                        
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            
+                            
+
+                        
+                    
+                
+                
+                    
+                        
+                        
+                        
+                        
+                    
+                
+                
+            
+        
+
+        <footer class="bottom-footer"><!-- Footer links-->
+            <nav class="menu-item">
+                <div class="menu-item-header show-small">OTHERS</div>
+                <ul class="submenu">
+                    <li class="submenu-item"><a class="menu-link" href="https://www.topcoder.com/sitemap">SITEMAP</a></li>
+                    <li class="submenu-item"><a class="menu-link" href="https://www.topcoder.com/about/">ABOUT US</a></li>
+                    <li class="submenu-item"><a class="menu-link" href="https://help.topcoder.com/hc/en-us/articles/219069687-Contact-Support">CONTACT US</a></li>
+                    <li class="submenu-item"><a class="menu-link" href="https://help.topcoder.com/">HELP CENTER</a></li>
+                    <li class="submenu-item"><a class="menu-link" href="https://www.topcoder.com/community/how-it-works/privacy-policy/">PRIVACY POLICY</a></li>
+                    <li class="submenu-item"><a class="menu-link" href="https://www.topcoder.com/community/how-it-works/terms/">TERMS</a></li>
+                </ul>
+            </nav>
+            <!-- Social links-->
+            <div class="social-links"><p>topcoder is also on</p><a class="fb-link" href="https://www.facebook.com/topcoder"></a><a class="twitter-link" href="http://www.twitter.com/topcoder"></a><a class="linkedin-link" href="https://www.linkedin.com/company/topcoder"></a><a class="google-link" href="https://plus.google.com/+topcoder/posts"></a></div>
+            <p class="copyright-notice">© 2015 topcoder. All Rights Reserved</p></footer>
+    
+    
+
+
+
+
+
+
+
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.13.1";
+  analytics.load("p4hJvXxilb4KtBW6BMYN4o9FoNtCrp4E");
+  analytics.page();
+  }}();
+</script>
+
+<script>
+analytics.identify('', {
+  username: 'voanhq',
+  id: '90015824' 
+});
+</script>
+
+
+<!-- Start of topcoder Zendesk Widget script -->
+<iframe src="javascript:false" title="" style="display: none;" src="./TrafficCongestionDivTwo_Q_files/saved_resource.html"></iframe><script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","topcoder.zendesk.com");
+/*]]>*/</script>
+<!-- End of topcoder Zendesk Widget script -->
+
+
+ 
+
+
+
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1174423269336130");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1174423269336130&amp;ev=PageView&amp;noscript=1"></noscript>
+
+<script type="text/javascript" id="">function getCookie(a){a+="\x3d";var d=decodeURIComponent(document.cookie);d=d.split(";");for(var c=0;c<d.length;c++){for(var b=d[c];" "==b.charAt(0);)b=b.substring(1);if(0==b.indexOf(a))return b.substring(a.length,b.length)}return""}function parseJwt(a){a=a.split(".")[1];a=a.replace("-","+").replace("_","/");return JSON.parse(window.atob(a))}
+function setCookie(a,d,c){var b=new Date;b.setTime(b.getTime()+864E5*c);c="expires\x3d"+b.toUTCString();document.cookie=a+"\x3d"+d+";"+c+";path\x3d/;domain\x3d.topcoder.com"}var get_tcjwt=getCookie("tcjwt");if(""!=get_tcjwt){var decode=parseJwt(get_tcjwt),clientID=decode.clientID;setCookie("_cid",clientID,365)};</script>  <script type="text/javascript" id="">if("undefined"!=typeof window.drift)window.drift.on("startConversation",function(){ga("send","event","Drift Widget","Chat Started")});</script>  <script type="text/javascript" id="">function getParameterByName(d,b){b||(b=window.location.href);d=d.replace(/[\[\]]/g,"\\$\x26");var a=new RegExp("[?\x26]"+d+"(\x3d([^\x26#]*)|\x26|#|$)");return(a=a.exec(b))?a[2]?decodeURIComponent(a[2].replace(/\+/g," ")):"":null}function getCookie(d){d+="\x3d";var b=decodeURIComponent(document.cookie);b=b.split(";");for(var a=0;a<b.length;a++){for(var c=b[a];" "==c.charAt(0);)c=c.substring(1);if(0==c.indexOf(d))return c.substring(d.length,c.length)}return""}
+function setCookie(d,b,a){var c=new Date;c.setTime(c.getTime()+864E5*a);a="expires\x3d"+c.toUTCString();document.cookie=d+"\x3d"+b+";"+a+";path\x3d/;domain\x3d.topcoder.com"}var clientid=ga.getAll()[0].get("clientId"),gclid=getParameterByName("gclid");""==getCookie("_gacid")&&setCookie("_gacid",clientid,730);null!=getCookie("_gclid")&&""==getCookie("_gclid")&&setCookie("_gclid",gclid,30);</script>  
+  </body></html>
